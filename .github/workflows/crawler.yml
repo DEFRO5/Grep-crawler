@@ -3,7 +3,7 @@ name: Grep Crawler
 on:
   schedule:
   #Edit the cron time to run as per your need
-    - cron: '*/5 * * * *'
+  #  - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
