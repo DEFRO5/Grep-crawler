@@ -2,8 +2,8 @@ name: Grep Crawler
 
 on:
   schedule:
-  #Edit the cron time to run as per your need
-  #  - cron: '*/5 * * * *'
+    # Runs every day at 12:00 AM UTC
+    - cron: '31 18 * * *'
   workflow_dispatch:
 
 jobs:
